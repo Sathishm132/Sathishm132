@@ -22,16 +22,16 @@
             const name=event.target.username.value;
             const email=event.target.emailid.value;
             const phone=event.target.phonenumber.value;
-            localStorage.setItem("name",name);
-            localStorage.setItem("email",email);
-            localStorage.setItem("phone",phone);
+            //localStorage.setItem("name",name);
+            //localStorage.setItem("email",email);
+            //localStorage.setItem("phone",phone);
             const myobject={
                 "name":name,
                 "email":email,
                 "phone":phone
                 
             }
-            localStorage.setItem("userdetials",JSON.stringify(myobject));
+            localStorage.setItem(myobject.email,JSON.stringify(myobject));
 
         }
 
