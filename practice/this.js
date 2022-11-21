@@ -16,4 +16,4 @@ const cleaningtable=function(soap){
     };
     innerfunction("somesoap")
 };
-cleaningtable.call(this,);
+cleaningtable.call(this,)
